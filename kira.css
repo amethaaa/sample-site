@@ -1,0 +1,69 @@
+body {
+    background-color: rgb(231, 146, 160);
+}
+
+.video-loop {
+    top: 30px;
+    left: 460px;
+    position: relative;
+    display: none;
+}
+
+.video-box {
+    height: 510px;
+}
+
+.text-area {
+    padding-top: 20px;
+    text-align: center;
+    font-family: Montserrat;
+    font-weight: bold;
+    color: whitesmoke;
+    font-size: 30px;
+}
+
+#no-btn {
+    width: 100px;
+    height: 50px;
+    padding: 5px 10px 5px 10px;
+    border: 1px solid rgb(151, 13, 36);
+    border-radius: 30px;
+    background-color: rgb(125, 10, 29);
+    color: white;
+    position: absolute;
+    font-family: Montserrat;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.btn-area {
+    float: left;
+    margin-right: 30px;
+    margin-left: 420px;
+}
+
+#yes-btn {
+    width: 100px;
+    height: 50px;
+    padding: 5px 10px 5px 10px;
+    border: 1px solid rgb(151, 13, 36);
+    border-radius: 30px;
+    background-color: rgb(125, 10, 29);
+    color: white;
+    cursor: pointer;
+    font-family: Montserrat;
+    font-size: 25px;
+    font-weight: bold;
+    transition: opacity 0.2s;
+}
+
+#yes-btn:hover {
+    opacity: 0.6;
+}
+
+#final-img {
+    width: 300px;
+    top: 10px;
+    left: 600px;
+    position: absolute;
+}
